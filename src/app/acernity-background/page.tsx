@@ -48,17 +48,19 @@ export default function Page() {
       {/* </div> */}
 
       {/* 8. canvas reveal effect demo A dot background that expands on hover, as seen on Clerk's website */}
-      <div className="flex flex-col items-center justify-center w-full min-h-screen bg-transparent p-4 rounded-lg">
+      {/* <div className="flex flex-col items-center justify-center w-full min-h-screen bg-transparent p-4 rounded-lg"> */}
 
         {/* CanvasRevealEffectDemo - three card reveal when hovered */}
-        <CanvasRevealEffectDemo />
+        {/* <CanvasRevealEffectDemo /> */}
         {/* CanvasRevealEffectDemoThree - whole card */}
-        <CanvasRevealEffectDemoThree />
+        {/* <CanvasRevealEffectDemoThree /> */}
         {/* CanvasRevealEffectDemoTwo - its static  */}
-        <CanvasRevealEffectDemoTwo />
+        {/* <CanvasRevealEffectDemoTwo /> */}
 
+      {/* </div> */}
 
-      </div>
+      
+
     </div>
   );
 }
