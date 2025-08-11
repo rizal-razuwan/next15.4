@@ -2,7 +2,8 @@
 import React from "react";
 
 import { AnimatePresence, motion } from "motion/react";
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import { CanvasRevealEffect } from "../ui/acernity-ui-components/canvas-reveal-effect";
+
 
 export function CanvasRevealEffectDemo() {
   return (

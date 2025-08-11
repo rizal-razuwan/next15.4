@@ -9,10 +9,11 @@ import { BentoGridThirdDemo } from "@/components/acertinity-demo/bento/bento-gri
 import { BentoGridSecondDemo } from "@/components/acertinity-demo/bento/bento-grid-second-demo";
 import { AuroraBackground } from "@/components/ui/acernity-ui-components/aurora-background";
 import { BackgroundBeams } from "@/components/ui/acernity-ui-components/background-beams";
-import { CanvasRevealEffectDemo } from "@/components/acertinity-demo/canvas-reveal-effect-demo";
+
 import { Canvas } from "@react-three/fiber";
 import { CanvasRevealEffectDemoThree } from "@/components/acertinity-demo/canvas-reveal-effect-demo-three";
 import { CanvasRevealEffectDemoTwo } from "@/components/acertinity-demo/canvas-reveal-effect-demo-two";
+import { CanvasRevealEffectDemo } from "@/components/acertinity-demo/canvas-reveal-effect-demo";
 
 export default function Page() {
   return (
@@ -48,16 +49,16 @@ export default function Page() {
       {/* </div> */}
 
       {/* 8. canvas reveal effect demo A dot background that expands on hover, as seen on Clerk's website */}
-      {/* <div className="flex flex-col items-center justify-center w-full min-h-screen bg-transparent p-4 rounded-lg"> */}
+      <div className="flex flex-col items-center justify-center w-full min-h-screen bg-transparent p-4 rounded-lg">
 
         {/* CanvasRevealEffectDemo - three card reveal when hovered */}
-        {/* <CanvasRevealEffectDemo /> */}
+        <CanvasRevealEffectDemo />
         {/* CanvasRevealEffectDemoThree - whole card */}
         {/* <CanvasRevealEffectDemoThree /> */}
         {/* CanvasRevealEffectDemoTwo - its static  */}
         {/* <CanvasRevealEffectDemoTwo /> */}
 
-      {/* </div> */}
+      </div>
 
       
 

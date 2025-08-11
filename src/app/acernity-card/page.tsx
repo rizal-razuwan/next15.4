@@ -5,10 +5,10 @@ import { CardSpotlightDemo } from "@/components/acertinity-demo/card-spotlight-d
 import { CardStackDemo } from "@/components/acertinity-demo/card-stack-demo";
 import { CometCardDemo } from "@/components/acertinity-demo/comet-card-demo";
 import { ThreeDCardDemo } from "@/components/acertinity-demo/threed-card-demo";
-import CardDemoContent from "@/components/cards-demo-content";
-import CardDemoOneOverlay from "@/components/cards-demo-one-overlay";
-import CardDemo from "@/components/cards-demo-one-overlay";
-import { CardSpotlight } from "@/components/ui/card-spotlight";
+import CardDemoContent from "@/components/ui/acernity-ui-components/cards-demo-content";
+import CardDemoOneOverlay from "@/components/ui/acernity-ui-components/cards-demo-one-overlay";
+import CardDemo from "@/components/ui/acernity-ui-components/cards-demo-one-overlay";
+import { CardSpotlight } from "@/components/ui/acernity-ui-components/card-spotlight";
 
 export default function Page() {
   return (
